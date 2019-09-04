@@ -24,7 +24,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass 
 {
-	private static WebDriver driver;
+	public static WebDriver driver;
 	private static Select select;
 	private static Actions action;
 	
