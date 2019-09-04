@@ -54,8 +54,31 @@
 	    <version>3.6.2</version>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
+	<dependency>
+	    <groupId>com.vimalselvam</groupId>
+	    <artifactId>cucumber-extentsreport</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<dependency>
+	    <groupId>com.relevantcodes</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>2.41.2</version>
+	</dependency>
 	
-	
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports-cucumber4-adapter</artifactId>
+			<version>1.0.7</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/de.monochromata.cucumber/reporting-plugin -->
+	<dependency>
+	    <groupId>de.monochromata.cucumber</groupId>
+	    <artifactId>reporting-plugin</artifactId>
+	    <version>3.0.0</version>
+	</dependency>
+
     
   </dependencies>
 </project>
